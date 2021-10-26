@@ -2,12 +2,12 @@
 import pandas as pd
 
 
-df = pd.read_excel(r"C:\Users\victor.gama\Documents\Afrodev\Atletas.xlsx")
-df1 = pd.read_excel(r"C:\Users\victor.gama\Documents\Afrodev\Times.xlsx")
-df2 = pd.read_excel(r"C:\Users\victor.gama\Documents\Afrodev\Medalhas.xlsx")
-df3 = pd.read_excel(r"C:\Users\victor.gama\Documents\Afrodev\Tecnicos.xlsx")
-df4 = pd.read_excel(r"C:\Users\victor.gama\Documents\Afrodev\EntriesGender.xlsx")
-arq_ini = open(r'C:\Users\victor.gama\Documents\Afrodev\inicial.txt')
+df = pd.read_excel(r"Atletas.xlsx")
+df1 = pd.read_excel(r"Times.xlsx")
+df2 = pd.read_excel(r"Medalhas.xlsx")
+df3 = pd.read_excel(r"Tecnicos.xlsx")
+df4 = pd.read_excel(r"EntriesGender.xlsx")
+arq_ini = open(r"inicial.txt")
 inicio = arq_ini.read()
 print(inicio)
 
